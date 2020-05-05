@@ -1,0 +1,58 @@
+Last login: Mon May  4 23:42:04 on console
+chrispyyyy@Chriss-MBP ~ % 
+chrispyyyy@Chriss-MBP ~ % python
+
+WARNING: Python 2.7 is not recommended. 
+This version is included in macOS for compatibility with legacy software. 
+Future versions of macOS will not include Python 2.7. 
+Instead, it is recommended that you transition to using 'python3' from within Terminal.
+
+Python 2.7.16 (default, Feb 29 2020, 01:55:37) 
+[GCC 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.29.20) (-macos10.15-objc- on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+zsh: suspended  python
+chrispyyyy@Chriss-MBP ~ % pwd   
+/Users/chrispyyyy
+chrispyyyy@Chriss-MBP ~ % ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+chrispyyyy@Chriss-MBP ~ % cd Documents 
+chrispyyyy@Chriss-MBP Documents % ls
+GitHub
+chrispyyyy@Chriss-MBP Documents % cd GitHub 
+chrispyyyy@Chriss-MBP GitHub % mkdir Excercise0
+chrispyyyy@Chriss-MBP GitHub % ls
+Excercise0			Learning-Python-the-Hard-Way
+chrispyyyy@Chriss-MBP GitHub % cd Learning-Python-the-Hard-Way 
+chrispyyyy@Chriss-MBP Learning-Python-the-Hard-Way % mkdir Excercise0
+chrispyyyy@Chriss-MBP Learning-Python-the-Hard-Way % ls
+Excercise0		This is the beginning
+chrispyyyy@Chriss-MBP Learning-Python-the-Hard-Way % ls
+Excercise0
+chrispyyyy@Chriss-MBP Learning-Python-the-Hard-Way % cd Excercise0 
+chrispyyyy@Chriss-MBP Excercise0 % ls
+Terminal Saved Output	This is the beginning
+chrispyyyy@Chriss-MBP Excercise0 % cd 
+chrispyyyy@Chriss-MBP ~ % pwd
+/Users/chrispyyyy
+chrispyyyy@Chriss-MBP ~ % cd Documents/GitHub/Excercise1/
+cd: no such file or directory: Documents/GitHub/Excercise1/
+chrispyyyy@Chriss-MBP ~ % cd Documents/GitHub/
+chrispyyyy@Chriss-MBP GitHub % ls
+Excercise0			Learning-Python-the-Hard-Way
+chrispyyyy@Chriss-MBP GitHub % cd Learning-Python-the-Hard-Way 
+chrispyyyy@Chriss-MBP Learning-Python-the-Hard-Way % ls
+Excercise0	Excercise1
+chrispyyyy@Chriss-MBP Learning-Python-the-Hard-Way % cd Excercise1
+chrispyyyy@Chriss-MBP Excercise1 % python ex1.py
+Hello World!
+Hello Again
+I like typing this.
+This is fun.
+Yay! Printing.
+I'd much rather you 'not'.
+I "said" do not touch this.
+chrispyyyy@Chriss-MBP Excercise1 % python ex1.py
+I like typing this.
+chrispyyyy@Chriss-MBP Excercise1 % 
