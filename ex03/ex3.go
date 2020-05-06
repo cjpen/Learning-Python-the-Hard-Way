@@ -36,7 +36,8 @@ func main()  {
 	// Displays text string
 	fmt.Println("How about some more.")
 
-	// Displays text string, then evaluates the expression as True or False
+	// Displays text string, then evaluates the expression as true or false.
+	// The output differs from Python in that the true/false values return with lowercase letters opposed to the fist letter in uppercase.
 	fmt.Println("Is it greater?", 5 > -2)
 	fmt.Println("Is it greater or equal?", 5 >= -2)
 	fmt.Println("Is it less or equal?", 5 <= -2)
